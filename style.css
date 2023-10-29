@@ -1,4 +1,4 @@
-#img1 {
+/* #img1 {
     width: 200; }
 
 .header {
@@ -40,4 +40,92 @@
 .header-right {
   float: right;
 }
+ */
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url('assets/black.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+ a {
+  -webkit-text-stroke: 0.5px grey;
+ }
+.logo {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+ .navbar a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+ }
+
+ .navbar a:hover {
+  color: aquamarine;
+  text-align: center;
+  transition: 500ms ease-out;
+}
+
+img {
+  padding: 5px;
+  width: 150px;
+  margin-top: 5px;
+}
+
+span {
+  color: green;
+}
+
+/* Gaya dasar untuk baris (row) */
+.row {
+  margin-top: 5%;
+  display: flex; /* Menggunakan flexbox untuk menyusun kolom secara horizontal */
+  justify-content: space-between; /* Mengatur jarak antara kolom */
+  align-items: center; /* Menyusun kolom vertikal di tengah */
+}
+
+/* Gaya untuk setiap kolom */
+.column {
+  flex: 1; /* Menggunakan flexbox untuk mengisi ruang secara merata */
+  padding: 10px;
+  font-size: x-large;
+  text-align: center;
+  -webkit-text-stroke: 0.5px grey;
+}
+
+  .column h1 {
+    color: white;
+  }
+
+  .column p {
+    color: white;
+  }
+ .kalk {
+  padding: 75px;
+ }
