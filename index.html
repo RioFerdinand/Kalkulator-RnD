@@ -7,33 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Home -->
     <header class="header">
-        <!-- <a href="#" class="logo">Calculink</a> -->
         <a href="index.html">
-            <img src="assets/logo.png" alt="logo">
+            <img src="assets/logo.png" draggable="false" alt="logo">
         </a>
-        <nav class="navbar">
-            <a href="aboutus.html">About Us</a>
-            <a href="calculator.html">Calcolator</a>
-            <a href="#">hehe 1</a>
-            <a href="#">hehe2</a>
-        </nav>
+
+        <div class="header-right">
+            <a class="active" href="index.html">Home</a>
+          <a href="#about" class="about">About Us</a>
+          <a href="calculator.html" class="about">Calculator</a>
+        </div>
+      </div>
     </header>
-    <!-- <div class="row" style="margin-top: 15%; margin-left: 25px;">
-        <div class="col-xl-6">
-            <h1>Kalkulator Online <span>Gratis</span></h1><br>
-            <p>"Kalkulator Anda untuk Mengubah Hidup"</p>
-        </div>
-        <div class="col-xl-6" style="margin-left: 70%;">
-            <img src="assets/image.png" alt="">
-        </div>
-    </div> -->
+
     <div class="row">
         <div class="column">
-            <h1>Kalkulator Online <span>Gratis</span></h1><br>
-            <p>"Kalkulator Anda untuk Mengubah Hidup"</p>
-        </div>
-        <div class="column kalk"><img src="assets/image.png"></div>
+            <table class="table1">
+                <td>
+                    <tr><img src="./assets/kalku.png" id="kalku" draggable="false" ></tr>
+                </td>
+              </table>
     </div>
+
+        <!-- About-->
+
+        <div class="container" id="about">
+            <div>
+              <div >
+                <h1 id="text1">“Kami adalah tim yang berkomitmen untuk menyediakan solusi</h1>
+                  <h1 id="text1"> perhitungan yang tepat, cepat, dan mudah bagi Anda”</h1>
+              </div>
+
+
+      <!-- Footer-->
+      <footer class="row row-cols-1 row-cols-sm-2 py-5 " id="bawah">
+        <div>
+        <div class="img1">
+          <img src="./assets/logo.png" width="150" draggable="false" id="gambar">
+        </div>
+        </div>
+    
+        <div class="grid-container row">
+          <div class="team1">   
+            <h5>Team 1</h5>
+             <ul>
+            <li ><a  class="about">Gabriella Christy</a></li>
+            <li ><a  class="about">Vincent Devano</a></li>
+            <li ><a  class="about">Denzel Malik</a></li>
+            <li ><a  class="about">Marthiza Fikriya</a></li>
+             </ul>
+          </div>
+          <div>
+            <ul>
+              <li ><a  class="about">Rio Ferdinand</a></li>
+              <li ><a  class="about">James Ko</a></li>
+              <li ><a  class="about">Christopher Evan</a></li>
+              <li ><a  class="about">Cheryl Avelia</a></li>
+            </ul>
+          </div>
+          <div>
+            <img src="./assets/bncc.png" alt="bncc" draggable="false" class="bncc">
+        </div>
+            </footer>
 </body>
 </html>
