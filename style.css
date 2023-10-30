@@ -127,6 +127,7 @@ font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   transition: color 0.3s ease; 
   cursor: pointer;
+
 }
 
 .about:hover {
@@ -139,14 +140,23 @@ font-family: 'Montserrat', sans-serif;
   padding-bottom: 3%;
 }
 
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #text1 {
   color: white;
   text-align: center;
-}
-.text-body-emphasis {
-  text-align: center;
+  padding-top: 7%;
 }
 
+#text2 {
+  color: white;
+  text-align: center;
+  padding-top: 0%;
+}
 
 .container, .container-sm {
     --bs-gutter-x: 1.5rem;
@@ -210,10 +220,6 @@ ul {
 
 footer {
   padding: 20px;
-  height: 90px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 .grid-container {
@@ -298,12 +304,18 @@ button:hover {
 }
 
 .bncc {
-  padding-right: 1%;
-  padding-top: 3%;
   width: 180px;
-  float: right;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
+footer {
+  background-color: black;
+  color: #fff;
+padding-top: 18%;
+  text-align: center;
+}
 
 
 
